@@ -39,19 +39,19 @@
             background: rgba(255, 255, 255, 0.25);
         }
         .c-ripple.is-active .c-circle {
-            animation: a-ripple 0.4s ease-in;
+            animation: theripple 0.4s ease-in;
         }
 
-        @keyframes a-ripple {
+        @keyframes theripple {
             0% {
                 opacity: 0;
             }
-            25% {
+            20% {
                 opacity: 1;
             }
             100% {
                 width: 200%;
-                padding-bottom: 200%;
+                padding-top: 200%;
                 opacity: 0;
             }
         }
